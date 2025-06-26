@@ -9,6 +9,7 @@ The goal is to identify trends and key metrics such as:
                                Query 1: Top Product by Revenue (Country/Year)
 
 Groups the sales data by country, product line (category), and year, then sums the revenue for each group. It uses a window function (DENSE_RANK) partitioned by country and year (ordered by revenue descending) to rank the product lines by revenue. The query then selects the product line with rank = 1 for each country-year, showing the highest-revenue product in each country for that year.
+              ![Image](https://github.com/user-attachments/assets/9e8960b3-c4d1-4e2e-96e9-d3e6ea0c57c2)
 
                                 Query 2: Highest-Revenue City per Country 
 
